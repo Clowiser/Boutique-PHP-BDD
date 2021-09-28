@@ -1,5 +1,5 @@
 <?php
-$bdd = new PDO('mysql:host=localhost;dbname=bdds;charset=utf8', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=boutiqueetoile;charset=utf8', 'root', '');
     $reponse = $bdd->query('SELECT * FROM articles');
 
     while ($donnees = $reponse->fetch()){
